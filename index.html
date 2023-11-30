@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Danielli de Oliveira Machado & Nathan Rodrigues Gava">
+    <meta name="description" content="Dona Madalena Macramê + Ella Produção de Eventos Website">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Dona Madalena + Ella</title>
+    <link rel="icon" type="image/x-icon" href="./img/logo madalena.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <script type="text/javascript" defer src="js/script.js"> </script>
+</head>
+
+<body>
+    <header id="cabeca">
+        <img id="logo" src="img/logo.png" alt="Dona Madalena Logo">
+        <p>Dona Madalena Macramê + Ella Eventos</p>
+        <div id="divBusca">
+            <input type="text" id="txtBusca" placeholder="Pesquise no site..." />
+            <button class="btnBusca"><a href="index.html" class="btnBusca">Buscar</a></button>
+        </div>
+        <article id="log">
+            <img id="imgLogin" src="img/LOGIN.png">
+            <a id="login" href="login.html">Login</a>
+            <a id="cad" href="cadastro.html">/Cadastro</a>
+        </article>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a class="menu" href="#sobre1">SOBRE</a></li>
+            <li><a class="menu" href="macrame.html">MACRAMÊ</a></li>
+            <li><a class="menu" href="ella.html">EVENTOS</a></li>
+            <li><a class="menu" href="#newsletter">NEWSLETTER</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article class="slideshow-container fade">
+            <section class="containers">
+                <article class="info">
+                    <a href="macrame.html">
+                        <img src="img/img 1.png" alt="imagem 1" class="moldura">
+                    </a>
+                </article>
+            </section>
+            <section class="containers">
+                <article class="info">
+                    <a href="ella.html">
+                        <img src="img/img 2.png" alt="imagem 2" class="moldura">
+                    </a>
+                </article>
+            </section>
+            <section class="containers">
+                <article class="info">
+                    <a href="https://www.unesc.net/portal/central-de-eventos">
+                        <img src="img/img 3.png" alt="imagem 3" class="moldura">
+                    </a>
+                </article>
+            </section>
+            <a class="back" onclick="proxSlide(-1)">&#10094</a>
+            <a class="forward" onclick="proxSlide(1)">&#10095</a>
+            <article>
+                <button class="dots" onclick="slideAtual(1)"></button>
+                <button class="dots" onclick="slideAtual(2)"></button>
+                <button class="dots" onclick="slideAtual(3)"></button>
+            </article>
+        </article>
+        <section>
+            <h2 id="sobre1">SOBRE</h2>
+            <article id="soobre">
+                <img src="/img/foto.png" id="foto-criadora">
+                <p class="text">
+                    Perla é a mente criativa por trás da marca Dona Madalena Macramê e Ella
+                    Produção e Eventos. Seu talento se estende além do universo acadêmico, onde ela desempenha o papel
+                    essencial de coordenadora de eventos na Universidade do Extremo Sul Catarinense - UNESC. Com
+                    habilidades
+                    excepcionais em macramê, Perla dá vida a peças únicas que levam consigo a delicadeza dos nós e a
+                    paixão pelo artesanato. Além disso, sua expertise se expande para a produção de eventos, onde
+                    transforma ideias em experiências memoráveis, criando momentos que transcendem fronteiras. A marca
+                    Dona Madalena Macramê é um reflexo da sua dedicação à arte têxtil, enquanto Ella Produção e Eventos
+                    revela sua capacidade de dar vida a celebrações e encontros marcantes. Na UNESC, Perla traz sua
+                    visão e versatilidade, enriquecendo não apenas os eventos acadêmicos, mas também elevando a
+                    experiência universitária para além do esperado.</p>
+            </article>
+            <article id="macram">
+                <p class="text">
+                    O macramê é uma antiga forma de tecelagem manual que utiliza nós decorativos para criar padrões
+                    intrincados. Originado no Oriente Médio, o macramê ganhou popularidade em diversas culturas ao longo
+                    dos séculos. Essa técnica versátil envolve a amarração e entrelaçamento de fios para produzir uma
+                    variedade de objetos, como painéis de parede, cortinas, suportes para plantas e acessórios de moda.
+                    A beleza do macramê reside na simplicidade dos materiais - geralmente apenas cordões de algodão - e
+                    na complexidade dos nós, permitindo que os artesãos expressem criatividade em cada peça única. Suas
+                    aplicações decorativas e funcionais tornam o macramê uma escolha popular para aqueles que apreciam a
+                    estética artesanal e o charme boêmio em seus ambientes.</p>
+                <img src="/img/macrame1.jpeg" id="macrame1">
+            </article>
+            <article id="eventos">
+                <img src="/img/bolhas.jpg" id="evento">
+                <p class="text">
+                    Na dualidade de produtora de eventos e coordenadora na Universidade Comunitária UNESC, nossa atuação
+                    transcende os limites acadêmicos, abraçando uma variedade de experiências. Planejamos e executamos
+                    eventos que vão desde palestras motivacionais até shows envolventes, trazendo uma dimensão
+                    multifacetada à vida universitária. Com uma abordagem dinâmica, nossa equipe se empenha em criar
+                    experiências inovadoras que ultrapassam as expectativas, seja na organização de eventos
+                    corporativos, festivais culturais ou atividades comunitárias. Na UNESC, a produção de eventos é a
+                    ponte que conecta a universidade ao mundo, enriquecendo não apenas a jornada acadêmica, mas também
+                    contribuindo para a formação integral dos participantes e fortalecendo os laços com a comunidade em
+                    geral.</p>
+            </article>
+            <section>
+                <img src="/img/NEWSLETTER.png" id="newsletter">
+                <article class="assina">
+                    <form class="formAssinatura">
+                        <input type="email" placeholder="Digite seu e-mail" autofocus="true" />
+                        <button class="bt-ass"><a href="index.html">Assinar</a></button>
+                    </form>
+                </article>
+            </section>
+    </main>
+
+    <footer>
+        <section>
+            <article>
+                <a
+                    href="https://www.instagram.com/donamadalena.macrame/?utm_source=ig_web_button_share_sheet&igshid=MmVlMjlkMTBhMg=="><img
+                        src="img/insta.png" class="midia"></a>
+                <a href="mailto:Donamadalena.macrame@gmail.com?subject=Dona Madalena + Ella Eventos">
+                    <img src="img/email.png" class="midia"></a>
+                <a
+                    href="https://l.instagram.com/?u=http%3A%2F%2Fwa.me%2F554899733392&e=AT25oUWbgLKiQPH84JPSX_DAbdEsKh2SO8kycEx_mnEYHHO_udLxk8jqTVwx_L58hKVkDSkeyEs9fVDgRmcGwNxeDdG_ARZ6m-bI0pXBpIhmLEuaMqmmdQ">
+                    <img src="img/whats.png" class="midia"></a>
+            </article>
+            <article>
+                <p id="termos"><a
+                        href="https://legacywebsite.blob.core.windows.net/site/Fund/TermoDeUsoPoliticaPrivacidade.pdf">TERMOS
+                        DE USO | POLÍTICA DE PRIVACIDADE</a></p>
+                <p id="termos">TODOS OS DIREITOS RESERVADOS | DONA MADALENA MACRAMÊ + ELLA EVENTOS</p>
+            </article>
+        </section>
+    </footer>
+</body>
+
+</html>
